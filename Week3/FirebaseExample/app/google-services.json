@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "922055681678",
+    "firebase_url": "https://kingmatthewweek4.firebaseio.com",
+    "project_id": "kingmatthewweek4",
+    "storage_bucket": "kingmatthewweek4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922055681678:android:098388a432cf4b3b",
+        "android_client_info": {
+          "package_name": "com.example.firebaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922055681678-94dsetqv01udnftmift11pns4bfc2r1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseexample",
+            "certificate_hash": "1f7074e20f8d01c62f9a7e5513becdd3336c24b4"
+          }
+        },
+        {
+          "client_id": "922055681678-e6e9qofrefdgr8i0js1h96ql9dkn022j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvjR7p7DAGe-zHaxfmI597qDmjf1UNMQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922055681678-e6e9qofrefdgr8i0js1h96ql9dkn022j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
