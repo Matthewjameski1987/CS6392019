@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/firstNametextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Matthew"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastNametextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="King"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstNametextView" />
+
+    <TextView
+        android:id="@+id/course1textView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="CS639"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/firstNametextView"
+        app:layout_constraintTop_toTopOf="@+id/firstNametextView" />
+
+    <TextView
+        android:id="@+id/course2textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="IS655"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/course1textView"
+        app:layout_constraintTop_toBottomOf="@+id/course1textView" />
+
+    <TextView
+        android:id="@+id/course3textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="None"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/course2textView"
+        app:layout_constraintTop_toBottomOf="@+id/course2textView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lastNametextView"
+        app:layout_constraintEnd_toStartOf="@+id/firstNametextView"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/firstNametextView"
+        app:layout_constraintVertical_bias="0.029999971"
+        app:srcCompat="@drawable/pic" />
+
+    <View
+        android:id="@+id/dividerTop"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/firstNametextView"
+        app:layout_constraintEnd_toEndOf="@+id/course1textView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/dividerBottom"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#3F51B5"
+        app:layout_constraintEnd_toEndOf="@+id/dividerTop"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/lastNametextView" />
+
+    <View
+        android:id="@+id/dividerLeft"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:background="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="@+id/dividerBottom"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/dividerBottom"
+        app:layout_constraintTop_toBottomOf="@+id/dividerTop" />
+
+    <View
+        android:id="@+id/dividerRight"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:background="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="@+id/dividerLeft"
+        app:layout_constraintEnd_toEndOf="@+id/dividerBottom"
+        app:layout_constraintStart_toEndOf="@+id/dividerBottom"
+        app:layout_constraintTop_toTopOf="@+id/dividerLeft" />
+
+    <View
+        android:id="@+id/dividerInsideRight"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="@+id/dividerRight"
+        app:layout_constraintEnd_toStartOf="@+id/course1textView"
+        app:layout_constraintTop_toTopOf="@+id/dividerRight" />
+
+    <View
+        android:id="@+id/dividerInsideLeft"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="@+id/dividerLeft"
+        app:layout_constraintEnd_toStartOf="@+id/firstNametextView"
+        app:layout_constraintTop_toTopOf="@+id/dividerLeft" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
