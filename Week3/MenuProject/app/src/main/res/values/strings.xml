@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MenuProject</string>
+    <string name="sms">SMS</string>
+    <string name="phone">PHONE</string>
+    <string name="webbutton">WEB</string>
+    <string name="map">MAP</string>
+    <string name="share">SHARE</string>
+    <string name="new_activity">NEW ACTIVITY</string>
+    <string name="hello_matthew_king">Hello Matthew King</string>
+    <string name="help">Help</string>
+    <string name="click_on_a_button_to_execute_the_action_associated_with_it">Click on a button to execute the action associated with it.</string>
+    <string name="tip">Tip:</string>
+</resources>
