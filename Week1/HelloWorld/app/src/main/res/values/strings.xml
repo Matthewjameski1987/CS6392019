@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_matthew_king">Hello Matthew King</string>
+    <string name="welcome_in_cs639_summer_2019">Welcome in CS639 Summer 2019</string>
+</resources>
