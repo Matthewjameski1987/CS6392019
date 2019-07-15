@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Momma Bear App</string>
+    <string name="momma_bear_app">Momma-Bear App</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="error_password">Invalid entry</string>
+    <string name="help">Help</string>
+    <string name="chores">Chores</string>
+    <string name="bills">Bills</string>
+    <string name="plans">Plans</string>
+    <string name="groceries">Order Groceries</string>
+    <string name="daddy_do">New Daddy-Do Alert</string>
+    <string name="dean">Dean</string>
+    <string name="charlotte">Charlotte</string>
+    <string name="harper">Harper</string>
+    <string name="login_enter_username_and_password_ensure_that_password_is_at_least_8_characters">LOGIN: Enter username and password. (Ensure that password is at least 8 characters)</string>
+    <string name="chores_click_on_picture_to_proceed_to_child_specific_chore_list">CHORES: Click on picture to proceed to child-specific chore list</string>
+    <string name="chores_list">Chores List</string>
+    <string name="click_here_to_add_a_new_chore">Click here to add a new chore</string>
+    <string name="take_out_the_trash">Take out the trash</string>
+    <string name="calculate">Calculate</string>
+    <string name="total">Total: $</string>
+    <string name="upcoming_bills">Upcoming Bills</string>
+    <string name="calendar">Calendar</string>
+</resources>

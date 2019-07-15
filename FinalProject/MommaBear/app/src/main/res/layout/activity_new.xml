@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23FF9800"
+    android:theme="@style/AppTheme"
+    tools:context=".NewActivity">
+
+    <Button
+        android:id="@+id/buttonChores"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#AFA5C0"
+        android:fontFamily="casual"
+        android:onClick="onClickChoresActivity"
+        android:text="@string/chores"
+        android:textColor="#53095F"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:background="#AFA5C0"
+        android:fontFamily="casual"
+        android:onClick="onClickBillsActivity"
+        android:text="@string/bills"
+        android:textColor="#53095F"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonChores" />
+
+    <Button
+        android:id="@+id/buttonPlanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:background="#AFA5C0"
+        android:fontFamily="casual"
+        android:text="@string/plans"
+        android:onClick="onClickCalendar"
+        android:textColor="#53095F"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBills" />
+
+    <Button
+        android:id="@+id/buttonGroceryList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:background="#AFA5C0"
+        android:fontFamily="casual"
+        android:text="@string/groceries"
+        android:onClick="onClickWeb"
+        android:textColor="#53095F"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlanner" />
+
+    <Button
+        android:id="@+id/buttonDaddyDo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:background="#AFA5C0"
+        android:fontFamily="casual"
+        android:text="@string/daddy_do"
+        android:onClick="onClickSendMessage"
+        android:textColor="#53095F"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGroceryList" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:src="@drawable/calendar"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonPlanner"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlanner"
+        app:layout_constraintTop_toTopOf="@+id/buttonPlanner" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:src="@drawable/trash"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonChores"
+        app:layout_constraintEnd_toStartOf="@+id/buttonChores"
+        app:layout_constraintTop_toTopOf="@+id/buttonChores" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:src="@drawable/bank"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBills"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBills"
+        app:layout_constraintTop_toTopOf="@+id/buttonBills" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:src="@drawable/wrench"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonDaddyDo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDaddyDo"
+        app:layout_constraintTop_toTopOf="@+id/buttonDaddyDo" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:src="@drawable/carrot"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonGroceryList"
+        app:layout_constraintEnd_toStartOf="@+id/buttonGroceryList"
+        app:layout_constraintTop_toTopOf="@+id/buttonGroceryList" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
